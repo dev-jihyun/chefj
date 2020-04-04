@@ -13,7 +13,7 @@ import static common.JDBCTemplate.*;
 
 import attachment.model.vo.Attachment;
 
-public class AttachmentDao {
+public class AttachmentDao { 
 
 	private Properties prop = new Properties();
 
