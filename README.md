@@ -40,20 +40,17 @@
    + 글 리스트 조회
 
 ## Overview
-* **main** - 셰프제이 메인입니다. 메뉴에 마우스오버 시 다른 페이지로 넘어갈 수 있는 메뉴 상세가 나옵니다.
-  ![main](doc/images/ChefJ메인view.png)
+* **main** - 셰프제이 메인입니다. 추천레시피가 슬라이드형식으로 나오고, 추천 식재료가 카드형식으로 제공됩니다. 로그인 시 회원이름에 마우스오버 시 레시피를 등록하거나 로그아웃, 고객센터로 갈 수 있는 미니메뉴가 나오고, 메뉴 이름에 마우스오버 시 식자재구매 혹은 레시피페이지로 넘어갈 수 있는 메뉴 상세가 나옵니다. 관리자 로그인 시 관리센터 미니메뉴가 나옵니다.
+  ![main](docs/images/ChefJ메인view.png)
+  ![minimenu](docs/images/관리자submenu.png)
+  ![minimenu2](docs/images/회원submenu.png)
+  ![menu](docs/images/메뉴view.png)
   
 * **고객센터/관리센터** - 관리자 계정으로 로그인 시 관리센터, 일반회원으로 로그인 시 고객센터로 뷰가 변경되어 보입니다. 페이징 처리가 모두 되어있습니다. 1대1문의게시판은 글 작성 시 주문내역을 조회하여 주문번호 선택 후 글을 작성할 수 있기때문에 상세한 문의가 가능합니다.
-  ![schedule](doc/images/트레이너일정view.png)
-  ![schedule2](doc/images/일정view.png)
-  ![code2](doc/images/일정조회view2.png)
-  
-* **게시판** - 1대1문의게시판과 공지사항게시판이 있습니다. 문의할 때에는 개인트레이너 또는 관리자 중 선택하여 문의가 가능합니다. 텍스트 에디터 API를 사용하여 글 내용의 dataType은 LONG형 입니다. 검색할 때 일반 방법으로는 검색이 되지 않아 인덱스를 따로 생성하여 구현하였습니다.
-  ![board](doc/images/게시판view.png)
-  ![code3](doc/images/공지사항검색view.png)  
-  
-* **게시판** - 개인정보 수정시 ajax활용하여 비밀번호 입력 후 정보수정 페이지로 갈 수 있습니다.  
-  ![code1](doc/images/비밀번호재확인viewpng.png)
+ - 회원관리
+ ![schedule](docs/images/회원관리view.png)
+ - 문의게시판 주문조회 - 회원이 문의할 때 자신의 주문번호를 조회할 수 있습니다.
+  ![schedule](docs/images/주문조회view.png)
 
 
 
