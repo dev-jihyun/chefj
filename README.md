@@ -42,8 +42,8 @@
 ## Overview
 * **main** - 셰프제이 메인입니다. 추천레시피가 슬라이드형식으로 나오고, 추천 식재료가 카드형식으로 제공됩니다. 로그인 시 회원이름에 마우스오버 시 레시피를 등록하거나 로그아웃, 고객센터로 갈 수 있는 미니메뉴가 나오고, 메뉴 이름에 마우스오버 시 식자재구매 혹은 레시피페이지로 넘어갈 수 있는 메뉴 상세가 나옵니다. 관리자 로그인 시 관리센터 미니메뉴가 나옵니다.
   ![main](docs/images/ChefJ메인view.png)
-  ![minimenu](docs/images/관리자submenu.png)
-  ![minimenu2](docs/images/회원submenu.png)
+  ![minimenu](docs/images/관리자submenuview.png)
+  ![minimenu2](docs/images/회원submenuview.png)
   ![menu](docs/images/메뉴view.png)
   
 * **고객센터/관리센터** - 관리자 계정으로 로그인 시 관리센터, 일반회원으로 로그인 시 고객센터로 뷰가 변경되어 보입니다. 페이징 처리가 모두 되어있습니다. 1대1문의게시판은 글 작성 시 주문내역을 조회하여 주문번호 선택 후 글을 작성할 수 있기때문에 상세한 문의가 가능합니다.
