@@ -4,8 +4,8 @@
 * 제작인원 : 4명
 
 ## Supported Modules
-|  <center>Header1</center> |  <center>Header2</center> |  <center>Header3</center> |
-|:--------|:--------:|--------:|
+|  <center>Header1</center> |  <center>Header2</center> |
+|:--------|:--------:|
 |**OS** | window10 |
 |**개발환경** | Java 1.8, eclipse 2018-09, oracle 11g R2, JSP/Servlet, HTML5, CSS, JavaScript, Ajax |
 |**DB** | Oracle 11g, sql Developer |
