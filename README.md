@@ -13,7 +13,7 @@
 |**DB-design Tool** | Erdcloud |
 |**UI-design Tool** | kakaoOven |
 |**Library** | Maven, Bootstrap4, jQuery 3.4.1 |
-|**version control system** | GitHub |
+|**형상관리** | GitHub |
 |**API** | quillAPI(텍스트 에디터), 아인포트(결제 API), 도로명주소API |
 
 ## 주요이슈
